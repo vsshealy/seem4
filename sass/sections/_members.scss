@@ -1,0 +1,119 @@
+/**
+    * sass/sections/members.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+#members {
+    // GLOBAL
+        background-color: $color-grayscale-light-10;
+
+    // MOBILE
+        @media #{$screen-xs} {} //.COL-XS
+        @media #{$screen-sm} {} //.COL-SM
+        @media #{$screen-md} {} //.COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //.COL-LG
+        @media #{$screen-xl} {} //.COL-XL
+        @media #{$screen-xxl} {} //.COL-XXL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+    .section-title {
+        // GLOBAL
+            padding-top: 0.00rem;
+
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+    } //.SECTION-TITLE
+
+    .elementor-element.elementor-widget-image-gallery {
+        // GLOBAL
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+        .elementor-image-gallery {
+            // GLOBAL
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            .gallery {
+                // GLOBAL
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+
+                img {
+                    // GLOBAL
+                        width: 250px;
+
+                    // MOBILE
+                        @media #{$screen-xs} {} //.COL-XS
+                        @media #{$screen-sm} {} //.COL-SM
+                        @media #{$screen-md} {
+                            width: 300px;
+                        } //.COL-MD
+                        @media #{$device-mobile} {} //MOBILE
+
+                    // DESKTOP
+                        @media #{$screen-lg} {} //.COL-LG
+                        @media #{$screen-xl} {} //.COL-XL
+                        @media #{$screen-xxl} {} //.COL-XXL
+
+                    // BROWSERS
+                        @media #{$browser-ie} {} //IE
+                } //IMG
+            } //.GALLERY
+
+        } //.ELEMENTOR-IMAGE-GALLERY
+        
+    } //.ELEMENTOR-ELEMENT.ELEMENTOR-WIDGET-IMAGE-GALLERY
+} //#MEMBERS

@@ -1,0 +1,121 @@
+/**
+    * sass/parts/hero.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+.hero {
+    // GLOBAL
+    // MOBILE
+        @media #{$screen-xs} {} //.COL-XS
+        @media #{$screen-sm} {} //.COL-SM
+        @media #{$screen-md} {} //.COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //.COL-LG
+        @media #{$screen-xl} {} //.COL-XL
+        @media #{$screen-xxl} {} //.COL-XXL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+    &-home {
+        // GLOBAL
+            @extend .flexbox-center-all;
+            height: $hero-home-height;
+            background-attachment: fixed;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+        #{$text-headings-all} {
+            // GLOBAL
+                @extend .h3;
+                font-size: $hero-home-font-size;
+                text-align: center;
+                color: $color-grayscale-light-12;
+                margin: $margin-none;
+
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+        } //TEXT-HEADINGS-ALL
+        
+    } //.HERO-HOME
+
+    &-subpage {
+        // GLOBAL
+            @extend .flexbox-center-all;
+            height: $hero-subpage-height;
+            background-attachment: fixed;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+        #{$text-headings-all} {
+            // GLOBAL
+                @extend .h3;
+                font-size: $hero-subpage-font-size;
+                text-align: center;
+                color: $color-grayscale-light-12;
+                margin: $margin-none;
+
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+        } //TEXT-HEADINGS-ALL
+
+    } //.HERO-SUBPAGE
+
+} //.HERO

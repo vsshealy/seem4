@@ -1,0 +1,125 @@
+/**
+    * sass/sections/contact.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+#contact {
+    // GLOBAL
+        background-color: $color-grayscale-light-12;
+
+    // MOBILE
+        @media #{$screen-xs} {} //.COL-XS
+        @media #{$screen-sm} {} //.COL-SM
+        @media #{$screen-md} {} //.COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //.COL-LG
+        @media #{$screen-xl} {} //.COL-XL
+        @media #{$screen-xxl} {} //.COL-XXL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+    .section-title {
+        // GLOBAL
+            padding-top: 0.00rem;
+
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+    } //.SECTION-TITLE
+
+    .wpcf7 {
+        // GLOBAL
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+        form.wpcf7-form {
+            // GLOBAL
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            input[type=text], textarea {
+                // GLOBAL
+                    &:focus, &:active {
+                        outline: 0.12rem solid $text-link-color;
+                    } //:FOCUS
+
+                    &::placeholder {
+                        color: $color-grayscale-light-6;
+                    } //::PLACEHOLDER
+
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //INPUT, TEXTAREA
+
+            input[type=submit] {
+                // GLOBAL
+                    margin: $margin-none !important;
+
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //INPUT[SUBMIT]
+
+        } //FORM.WPCF7-FORM
+    } //.WPCF7
+    
+} //#CONTACT
