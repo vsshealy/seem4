@@ -28,6 +28,8 @@
         <?php include(get_template_directory()."/header.php"); ?>
 
         <!-- CONTENT | SINGLE.PHP -->
+        <?php include(get_template_directory()."/php/theme/templates/single.php"); ?>
+
         <!-- FOOTER -->
         <?php include(get_template_directory()."/footer.php"); ?>
 

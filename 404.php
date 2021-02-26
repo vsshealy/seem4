@@ -28,6 +28,8 @@
         <?php include(get_template_directory()."/header.php"); ?>
 
         <!-- CONTENT | 404.PHP -->
+        <?php include(get_template_directory()."/php/theme/templates/404.php"); ?>
+
         <!-- FOOTER -->
         <?php include(get_template_directory()."/footer.php"); ?>
 
