@@ -102,6 +102,9 @@
 
             input[type=submit] {
                 // GLOBAL
+                    @extend .button-solid;
+                    width: 100.00%;
+                    display: block;
                     margin: $margin-none !important;
 
                 // MOBILE
@@ -118,6 +121,25 @@
                 // BROWSERS
                     @media #{$browser-ie} {} //IE
             } //INPUT[SUBMIT]
+
+            span.ajax-loader {
+                // GLOBAL
+                    display: block;
+
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //SPAN.AJAX-LOADER
 
         } //FORM.WPCF7-FORM
     } //.WPCF7
