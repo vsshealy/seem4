@@ -54,7 +54,7 @@
 // LAYOUTS
     // BASE SETTINGS
         $body-background-color: $color-grayscale-light-12;
-        $body-mobile-gutter: $base-unit * 0.50;
+        $body-mobile-gutter: $base-unit;
 
     // @IMPORT | PARTIALS
         @import "layouts/site";
