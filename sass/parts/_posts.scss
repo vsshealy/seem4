@@ -28,7 +28,7 @@
     &-newsroom {
         // GLOBAL
             @extend .listing;
-                        
+
         // MOBILE
             @media #{$screen-xs} {} //.COL-XS
             @media #{$screen-sm} {} //.COL-SM
@@ -42,5 +42,84 @@
 
         // BROWSERS
             @media #{$browser-ie} {} //IE
+        
+        .row {
+            // GLOBAL
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            & > .elementor-container {
+                // GLOBAL
+                    padding: $padding-none;
+
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //.ELEMENTOR-CONTAINER
+        } //.ROW
+
+        .date {
+            // GLOBAL
+                margin: $margin-none;
+                margin-bottom: $margin-xs;
+
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            #{$text-headings-all}.elementor-heading-title {
+                // GLOBAL
+                    font-family: $body-text;
+                    line-height: $line-height-none;
+                    text-transform: uppercase;
+                    color: $body-text-color;
+                    margin: $margin-none;
+
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //TEXT-HEADINGS-ALL
+        } //.DATE
     } //.LISTING-NEWSROOM
 } //.LISTING
