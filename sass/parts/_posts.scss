@@ -201,6 +201,7 @@
         a.elementor-button {
             // GLOBAL
                 @extend .button-solid;
+                border-radius: 0.00rem;
 
             // MOBILE
                 @media #{$screen-xs} {} //.COL-XS
@@ -218,8 +219,6 @@
 
             span.elementor-button-content-wrapper {
                 // GLOBAL
-                    color: $color-grayscale-light-12;
-                    
                 // MOBILE
                     @media #{$screen-xs} {} //.COL-XS
                     @media #{$screen-sm} {} //.COL-SM
@@ -233,6 +232,25 @@
 
                 // BROWSERS
                     @media #{$browser-ie} {} //IE
+
+                .elementor-button-icon, .elementor-button-text {
+                    // GLOBAL
+                        color: $color-grayscale-light-12;
+
+                    // MOBILE
+                        @media #{$screen-xs} {} //.COL-XS
+                        @media #{$screen-sm} {} //.COL-SM
+                        @media #{$screen-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //MOBILE
+
+                    // DESKTOP
+                        @media #{$screen-lg} {} //.COL-LG
+                        @media #{$screen-xl} {} //.COL-XL
+                        @media #{$screen-xxl} {} //.COL-XXL
+
+                    // BROWSERS
+                        @media #{$browser-ie} {} //IE
+                } //.ELEMENTOR-BUTTON-TEXT
             } //.ELEMENTOR-BUTTON-CONTENT-WRAPPER
         } //A.ELEMENTOR-BUTTON
     } //.LISTING-NEWSROOM
