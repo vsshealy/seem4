@@ -542,6 +542,27 @@
 
                 // BROWSERS
                     @media #{$browser-ie} {} //IE
+
+                i {
+                    // GLOBAL
+                        &::before {
+                            color: $color-grayscale-light-12;
+                        } //::BEFORE
+
+                    // MOBILE
+                        @media #{$screen-xs} {} //.COL-XS
+                        @media #{$screen-sm} {} //.COL-SM
+                        @media #{$screen-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //MOBILE
+
+                    // DESKTOP
+                        @media #{$screen-lg} {} //.COL-LG
+                        @media #{$screen-xl} {} //.COL-XL
+                        @media #{$screen-xxl} {} //.COL-XXL
+
+                    // BROWSERS
+                        @media #{$browser-ie} {} //IE
+                } //I
             } //.ELEMENTOR-ACTIVE 
         } //.ELEMENTOR-TAB-TITLE
 
@@ -570,6 +591,11 @@
 
             i {
                 // GLOBAL
+
+                    &::before {
+                        color: $button-color;
+                    } //::BEFORE
+
                     color: $button-color;
 
                     &:hover, &:active {
