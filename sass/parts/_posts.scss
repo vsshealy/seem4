@@ -547,7 +547,8 @@
 
         .elementor-accordion-title {
             // GLOBAL
-            color: $color-grayscale-light-12;
+                line-height: $line-height-condensed;
+                color: $color-grayscale-light-12;
 
             &:hover {
                 color: $color-grayscale-light-12;
