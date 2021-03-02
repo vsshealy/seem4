@@ -567,6 +567,29 @@
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
+
+            i {
+                // GLOBAL
+                    color: $button-color;
+
+                    &:hover, &:active {
+                        color: $color-grayscale-light-12;
+                    } //:HOVER, :ACTIVE
+
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //I
         } //ELEMENTOR-ACCORDION-TEXT
     } //.LISTING-FAQ
 } //.LISTING
