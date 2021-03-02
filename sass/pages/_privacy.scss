@@ -22,7 +22,7 @@ body#privacy {
     // BROWSERS
         @media #{$browser-ie} {} //IE
 
-    .last-updated .elementor-heading-title {
+    .last-updated .elementor-heading-title, .privacy-copyright .elementor-heading-title {
         // GLOBAL
             font-size: 1.25em;
             font-weight: 400;
@@ -47,7 +47,7 @@ body#privacy {
     .elementor-heading-title {
         // GLOBAL
             margin-bottom: $margin-none;
-            
+
         // MOBILE
             @media #{$screen-xs} {} //.COL-XS
             @media #{$screen-sm} {} //.COL-SM
