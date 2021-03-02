@@ -545,6 +545,8 @@
 
                 i {
                     // GLOBAL
+                        color: $color-grayscale-light-12;
+
                         &::before {
                             color: $color-grayscale-light-12;
                         } //::BEFORE
@@ -591,6 +593,7 @@
 
             i {
                 // GLOBAL
+                    color: $button-color !important;
 
                     &::before {
                         color: $button-color;
