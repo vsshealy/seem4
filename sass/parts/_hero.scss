@@ -117,6 +117,10 @@
                 @media #{$browser-ie} {} //IE
         } //TEXT-HEADINGS-ALL
 
+        .elementor-heading-title {
+            padding: 0.00rem 4.00rem;
+        }
+
     } //.HERO-SUBPAGE
 
 } //.HERO
