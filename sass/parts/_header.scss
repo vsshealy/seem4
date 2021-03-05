@@ -485,7 +485,7 @@ header {
 
                                     &.button-solid a {
                                         // GLOBAL
-                                            color: $color-grayscale-light-12;
+                                            color: $color-grayscale-light-12 !important;
 
                                         // MOBILE
                                             @media #{$screen-xs} {} //.COL-XS
@@ -578,6 +578,25 @@ header {
                                         // BROWSERS
                                             @media #{$browser-ie} {} //IE
                                     } //A
+
+                                    .button-solid a {
+                                        // GLOBAL
+                                            color: $color-grayscale-light-12 !important;
+
+                                        // MOBILE
+                                            @media #{$screen-xs} {} //.COL-XS
+                                            @media #{$screen-sm} {} //.COL-SM
+                                            @media #{$screen-md} {} //.COL-MD
+                                            @media #{$device-mobile} {} //MOBILE
+
+                                        // DESKTOP
+                                            @media #{$screen-lg} {} //.COL-LG
+                                            @media #{$screen-xl} {} //.COL-XL
+                                            @media #{$screen-xxl} {} //.COL-XXL
+
+                                        // BROWSERS
+                                            @media #{$browser-ie} {} //IE
+                                    } //.BUTTON-SOLID
                                 } //LI.MENU-ITEM
                             } //UL.MENU
                         } //#HEADER-DESKTOP-MENU-SECONDARY
