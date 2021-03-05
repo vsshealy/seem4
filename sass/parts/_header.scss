@@ -466,6 +466,12 @@ header {
                                     a {
                                         // GLOBAL
                                             font-weight: 700;
+                                            color: $header-text-link-color;
+
+                                            &:active, &:hover {
+                                                text-decoration: underline;
+                                                text-decoration-color: $text-link-color;
+                                            }
 
                                         // MOBILE
                                             @media #{$screen-xs} {} //.COL-XS
