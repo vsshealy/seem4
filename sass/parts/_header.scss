@@ -468,11 +468,6 @@ header {
                                             font-weight: 700;
                                             color: $header-text-link-color;
 
-                                            &:active, &:hover {
-                                                text-decoration: underline;
-                                                text-decoration-color: $text-link-color;
-                                            }
-
                                         // MOBILE
                                             @media #{$screen-xs} {} //.COL-XS
                                             @media #{$screen-sm} {} //.COL-SM
@@ -567,6 +562,8 @@ header {
 
                                     a {
                                         // GLOBAL
+                                            color: $text-link-color;
+
                                         // MOBILE
                                             @media #{$screen-xs} {} //.COL-XS
                                             @media #{$screen-sm} {} //.COL-SM
